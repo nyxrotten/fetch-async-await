@@ -59,10 +59,50 @@ header {
 }
 
 #prevBtn, #nextBtn, #resetBtn {
-  background-color: #2196F3;
+  background-color: #f37021;
   color: white;
 }
 
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  
+  
+  
+}
+
+#cajaPoke {
+  margin-bottom: 50px;
+  list-style: none;
+  max-width: 200px;
+  max-height: 200px;
+  text-align: center;
+  line-height: 1rem;
+  background-color: white;
+  
+  
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#buttons {
+  width: 230px;
+  display: flex;
+  justify-content: space-around;
 }
